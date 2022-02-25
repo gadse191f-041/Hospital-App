@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896272720078",
+    "project_id": "healthapp-b1d65",
+    "storage_bucket": "healthapp-b1d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896272720078:android:aa9a43c1a0a50b8147f09f",
+        "android_client_info": {
+          "package_name": "com.example.familylove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896272720078-0oacohf6l8g7tgi03hvg1sq5qurfn85i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzdRmfwvuoxrbiJpiKQrQ8EU6RJxQtzM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896272720078-0oacohf6l8g7tgi03hvg1sq5qurfn85i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

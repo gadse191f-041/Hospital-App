@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfarstructureActivity">
+
+    <TextView
+        android:id="@+id/txtHospitalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Family Love Hospital"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="59dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Infrastructure and Facilities"
+        android:textColor="#5529CD"
+        android:textSize="27sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="141dp"
+        android:layout_height="108dp"
+        android:layout_x="267dp"
+        android:layout_y="9dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="11dp"
+        android:layout_y="130dp"
+        android:src="@drawable/lby" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="284dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Lobby"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_x="221dp"
+            android:layout_y="127dp"
+            android:src="@drawable/wa" />
+
+    <TextView
+        android:id="@+id/textWaithingArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="241dp"
+        android:layout_y="282dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Waiting Area"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="221dp"
+        android:layout_y="320dp"
+        android:src="@drawable/fc" />
+
+    <TextView
+        android:id="@+id/fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="254dp"
+        android:layout_y="474dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Food Court"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="15dp"
+        android:layout_y="319dp"
+        android:src="@drawable/bank" />
+
+    <TextView
+        android:id="@+id/bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="475dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Banking Facilities"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="23dp"
+        android:layout_y="515dp"
+        android:src="@drawable/ec" />
+
+    <TextView
+        android:id="@+id/opd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="282dp"
+        android:layout_y="669dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="OPD"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="220dp"
+        android:layout_y="514dp"
+        android:src="@drawable/opd" />
+
+    <TextView
+        android:id="@+id/ec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="672dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Emergency Center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>
